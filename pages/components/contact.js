@@ -58,13 +58,13 @@ const Contact = () => {
   };
 
   return (
-    <section className="border-black border-2">
-      <div className="p-10 max-w-lg">
-          <h3 className="text-gray-800 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Contact Me</h3>
+    <section>
+      <div className="p-10 max-w-2xl m-auto">
+          <h3 className="text-blue-600 text-2xl font-bold md:text-3xl">Contact Me</h3>
 
           <form ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'>
+          className='mt-6 flex flex-col gap-8'>
             <label className="flex flex-col">
               <span className="text-gray-800 font-medium mb-4">Name</span>
               <input 
