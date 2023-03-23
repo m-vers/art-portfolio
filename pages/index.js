@@ -10,11 +10,8 @@ import { FaTumblrSquare } from "react-icons/fa";
 import Image from "next/image";
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-// import { close, menu } from "../public"
 
 export default function Home() {
-  const [active, setActive] = useState(' '); //Sets which nav is active
-  const [toggle, setToggle] = useState(false); //Sets the menu to toggle on smaller screens
   const [darkMode, setDarkMode] = useState(false); //Set dark mode on/off from moon icon
 
   // Form information generated on email
@@ -86,72 +83,66 @@ export default function Home() {
         <section className="min-h-screen">
 
 {/* Header Navigation */}
-          <nav className="py-10 mb-12 flex justify-between dark:text-blue-100">
+          <nav className="py-10 mb-12 justify-between flex dark:text-blue-100">
             <Link href="/"
-            onClick={() => {
-            setActive("");
-            window.scrollTo(0,0);}}>
-              <h1 className="font-burtons text-xl">Sara Baldwin</h1>
+            onClick={() => window.scrollTo(0,0)}>
+              <h1 className="font-roboto font-black text-xl text-blue-600 dark:text-blue-400">Sara Baldwin</h1>
             </Link>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pointer text-2xl"
+                  className="cursor-pointer text-2xl text-blue-600 dark:text-blue-400"
                 />
               </li>
               <li>
                 <a
                   className="bg-gradient-to-r from-blue-600
                   to-purple-500 text-blue-100 px-4 py-2 
-                  border-none rounded-md ml-8"
+                  border-none rounded-md ml-8 font-sarabun"
                   href="#"
                 >
                   Resume
                 </a>
               </li>
-              <li>
-                <Link
-                  className="bg-gradient-to-r from-blue-600
-                   to-purple-500 text-blue-100 px-4 py-2 
-                  border-none rounded-md ml-8"
-                  href="./animation"
-                >
-                  Animation
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="bg-gradient-to-r from-blue-600
-                  to-purple-500 text-blue-100 px-4 py-2 
-                  border-none rounded-md ml-8"
-                  href="./design"
-                >
-                  Design
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="bg-gradient-to-r from-blue-600
-                  to-purple-500 text-blue-100 px-4 py-2 
-                  border-none rounded-md ml-8"
-                  href="./illustration"
-                >
-                  Illustation
-                </Link>
-              </li>
+              <div className="flex small:flex-col">
+                <li>
+                  <Link
+                    className=" text-gray-500 px-2 py-2 ml-6 hover:text-black text-[18px] cursor-pointer dark:text-blue-100 font-sarabun"
+                    href="./animation">
+                    Animation
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-gray-500 px-2 py-2 ml-6 hover:text-black text-[18px] cursor-pointer dark:text-blue-100 font-sarabun"
+                    href="./design"
+                  >
+                    Design
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-gray-500 px-2 py-2 ml-6 hover:text-black text-[18px] cursor-pointer dark:text-blue-100 font-sarabun"
+                    href="./illustration"
+                  >
+                    Illustration
+                  </Link>
+                </li>
+              </div>
             </ul>
           </nav>
 
 {/* Site Banner */}
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-blue-600 font-bold dark:text-blue-400 md:text-6xl">
+            <h2 className="text-5xl py-2 bg-gradient-to-r from-blue-600
+                  to-purple-500 bg-clip-text text-transparent dark:text-blue-400 md:text-6xl max-w-lg m-auto font-roboto font-black">
               Sara Baldwin
             </h2>
-            <h3 className="text-2xl py-2 text-gray-900 dark:text-blue-100 md:text-3xl">
+            <h3 className="text-2xl py-2 text-gray-900 dark:text-blue-100 md:text-3xl font-sarabun">
               Illustrator & Designer
             </h3>
-            <p className="text-left py-5 leading-8 text-gray-900 dark:text-blue-100 max-w-xl mx-auto md:text-xl">
+            <p className="text-left py-5 leading-8 text-gray-900 dark:text-blue-100 max-w-xl mx-auto md:text-xl font-sarabun">
             Hello! My name is Sara Baldwin and I am a graphic designer and illustrator living in the PNW. I graduated from Missouri State University and I am fluent in an array of digital media, traditional art, visual communication, design, and illustration.
             I'm always ready to expand my artistic scope and learn something new!
             <br /><br />
@@ -184,42 +175,42 @@ export default function Home() {
 {/* Site Contact Form */}
         <section>
           <div className="p-10 max-w-2xl m-auto">
-            <h3 className="text-blue-600 text-2xl font-bold md:text-3xl dark:text-blue-400">Contact Me</h3>
+            <h3 className="text-blue-600 text-2xl md:text-3xl dark:text-blue-400 font-roboto font-black">Contact Me</h3>
             <form ref={formRef}
               onSubmit={handleSubmit}
               className='mt-6 flex flex-col gap-8'>
               <label className="flex flex-col">
-                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100">Name</span>
+                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100 font-sarabun">Name</span>
                 <input 
                   type='text'
                   name='name'
                   value={form.name}
                   onChange={handleChange}
                   placeholder='Enter Name'
-                  className="py-4 px-6 text-gray-900 rounded-lg border-none font-medium"/>
+                  className="placeholder:font-sarabun py-4 px-6 text-gray-900 rounded-lg border-none font-medium"/>
               </label>
               <label className="flex flex-col">
-                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100">Email</span>
+                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100 font-sarabun">Email</span>
                 <input 
                   type='email'
                   name='email'
                   value={form.email}
                   onChange={handleChange}
                   placeholder='Enter Email'
-                  className="py-4 px-6 text-gray-900 rounded-lg border-none font-medium"/>
+                  className="placeholder:font-sarabun py-4 px-6 text-gray-900 rounded-lg border-none font-medium"/>
               </label>
               <label className="flex flex-col">
-                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100">Subject</span>
+                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100 font-sarabun">Subject</span>
                 <input 
                   type='text'
                   name='subject'
                   value={form.subject}
                   onChange={handleChange}
-                  placeholder='eg, Job Offer'
-                  className="py-4 px-6  text-gray-900 rounded-lg border-none font-medium"/>
+                  placeholder='eg, Commission'
+                  className=" placeholder:font-sarabun py-4 px-6  text-gray-900 rounded-lg border-none font-medium"/>
               </label>
               <label className="flex flex-col">
-                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100">General Message</span>
+                <span className="text-gray-900 font-medium mb-4 dark:text-blue-100 font-sarabun">General Message</span>
                 <textarea
                   rows='7' 
                   name='message'
@@ -229,8 +220,8 @@ export default function Home() {
               </label>
               <button
                 type='submit'
-                className='bg-gradient-to-r from-blue-600
-                to-purple-500 py-3 px-8 rounded-xl outline-none w-fit text-blue-100 font-bold shadow-md'
+                className="bg-gradient-to-r from-blue-600
+                to-purple-500 py-3 px-8 rounded-xl outline-none w-fit text-blue-100 font-bold shadow-md font-sarabun"
               >
                 {loading ? "Sending..." : "Send"}
               </button>

@@ -7,8 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'small': { 'raw': '(max-width: 800px)' },
+        // => @media (max-width: 800px) { ... }
+      },
       fontFamily: {
-        burtons: "burtons",
+        roboto: "roboto",
+        sarabun: "sarabun",
         poppins: ["Poppins", "sans-serif"],
       },
     },

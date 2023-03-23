@@ -20,8 +20,11 @@ a {
 }
 
 @font-face {
-  font-family: "burtons";
-  src: url("../public/Burtons.otf");
+  font-family: 'roboto';
+  src: url("../public/RobotoSlab-VariableFont_wght.ttf");
 }
 
-
+@font-face {
+  font-family: 'sarabun';
+  src: url("../public/Sarabun-Regular.ttf");
+}
