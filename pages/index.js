@@ -115,7 +115,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-600
                    to-purple-500 text-blue-100 px-4 py-2 
                   border-none rounded-md ml-8"
-                  href="./components/animation"
+                  href="./animation"
                 >
                   Animation
                 </Link>
@@ -125,7 +125,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-600
                   to-purple-500 text-blue-100 px-4 py-2 
                   border-none rounded-md ml-8"
-                  href="./components/design"
+                  href="./design"
                 >
                   Design
                 </Link>
@@ -135,7 +135,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-blue-600
                   to-purple-500 text-blue-100 px-4 py-2 
                   border-none rounded-md ml-8"
-                  href="./components/illustration"
+                  href="./illustration"
                 >
                   Illustation
                 </Link>
