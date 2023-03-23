@@ -1,9 +1,9 @@
 import React from 'react';
 
-const animation = () => {
+const Animation = () => {
   return (
     <div>animation</div>
   );
 };
 
-export default animation;
+export default Animation;

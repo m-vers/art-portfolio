@@ -1,9 +1,9 @@
 import React from 'react';
 
-const design = () => {
+const Design = () => {
   return (
     <div>design</div>
   );
 };
 
-export default design;
+export default Design;

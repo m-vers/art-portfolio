@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
-import Home from "..";
+import Home from ".";
 import animation from "./animation";
 import design from "./design";
 import { useState } from "react";
 import Image from "next/image";
 import { BsFillMoonStarsFill, BsTiktok } from "react-icons/bs";
 
-const illustration = () => {
+const Illustration = () => {
     const [darkMode, setDarkMode] = useState(false);
 
   return (
@@ -83,4 +83,4 @@ const illustration = () => {
   );
 };
 
-export default illustration;
+export default Illustration;
