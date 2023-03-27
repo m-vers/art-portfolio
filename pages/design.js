@@ -77,15 +77,18 @@ const Design = () => {
                   to-purple-500 bg-clip-text text-transparent font-roboto font-black dark:text-blue-400 md:text-6xl max-w-xs">Design</h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="basis-1/3 flex-1 ">
+              <div className="basis-1/3 flex-1 relative">
                 <Link href="./components/EmployeeComms">
                   <Image
-                    className="rounded-lg object-cover cursor-pointer"
+                    className="rounded-lg object-cover"
                     width={500}
                     height={500}
                     layout="responsive"
                     src="/IMG_0624.jpg"
                   />
+                  <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
+                    <div>Project Name</div>
+                  </div>
                 </Link>
               </div>
               <div className="basis-1/3 flex-1">
