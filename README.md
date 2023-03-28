@@ -4,7 +4,7 @@ This is part one of a two part project. This is an art portfolio by request and 
 
 ## Project Build 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). [Tailwind CSS](https://tailwindcss.com/docs/installation) was also used for the styling. 
 
 ## Getting Started
 
