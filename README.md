@@ -1,10 +1,10 @@
-## ** Project Scope
+## Project Scope
 
-This is part one of a two part project. This is an art portfolio by request and an art blog will be part two. 
+This is part one of a two part project. This is an art portfolio by request and an [art blog](https://github.com/m-vers/art-blog) will be part two. 
 
-## ** Project Build 
+## Project Build 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). [Tailwind CSS](https://tailwindcss.com/docs/installation) was also used for the styling. 
 
 ## Getting Started
 
