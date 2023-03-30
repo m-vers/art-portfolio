@@ -78,63 +78,94 @@ const Design = () => {
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1 relative">
-                <Link href="./components/EmployeeComms">
+                <Link href="./components/BaldwinGym">
                   <Image
                     className="rounded-lg object-cover"
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0624.jpg"
+                    src="/BaldwinGym.jpg"
+                    alt=""
                   />
                   <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
-                    <div>Project Name</div>
+                    <div>Balwin Gym</div>
                   </div>
                 </Link>
               </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={500}
-                  height={500}
-                  layout="responsive"
-                  src="/IMG_0627.jpg"
-                />
+              <div className="basis-1/3 flex-1 relative">
+                <Link href="./components/HowIWork">
+                  <Image
+                    className="rounded-lg object-cover"
+                    width={500}
+                    height={500}
+                    layout="responsive"
+                    src="/AnkeChessboardFinalEdit.jpg"
+                    alt=""
+                  />
+                  <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
+                    <div>How I Work</div>
+                  </div>
+                </Link>
               </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={500}
-                  height={500}
-                  layout="responsive"
-                  src="/IMG_0629.jpg"
-                />
+              <div className="basis-1/3 flex-1 relative">
+                <Link href="./components/Logos">
+                  <Image
+                    className="rounded-lg object-cover"
+                    width={500}
+                    height={500}
+                    layout="responsive"
+                    src="/GlobalCommsSummit1.jpg"
+                    alt=""
+                  />
+                  <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
+                    <div>Logo Designs</div>
+                  </div>
+                </Link>
               </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={500}
-                  height={500}
-                  layout="responsive"
-                  src="/IMG_0634.jpg"
-                />
+              <div className="basis-1/3 flex-1 relative">
+                <Link href="./components/Spacecraft">
+                  <Image
+                    className="rounded-lg object-cover"
+                    width={500}
+                    height={500}
+                    layout="responsive"
+                    src="/CosmicArtClub1.jpg"
+                    alt=""
+                  />
+                  <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
+                    <div>Spacecraft</div>
+                  </div>
+                </Link>
               </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={500}
-                  height={500}
-                  layout="responsive"
-                  src="/EmployeeAppreciation5.jpg"
-                />
+              <div className="basis-1/3 flex-1 relative">
+                <Link href="./components/TechTerm">
+                  <Image
+                    className="rounded-lg object-cover"
+                    width={500}
+                    height={500}
+                    layout="responsive"
+                    src="/4.jpg"
+                    alt=""
+                  />
+                  <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
+                    <div>Tech Terms</div>
+                  </div>
+                </Link>
               </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={500}
-                  height={500}
-                  layout="responsive"
-                  src="/IMG_0624.jpg"
-                />
+              <div className="basis-1/3 flex-1 relative">
+                <Link href="./components/WabiTiny">
+                  <Image
+                    className="rounded-lg object-cover"
+                    width={500}
+                    height={500}
+                    layout="responsive"
+                    src="/WabiTinyLogo.jpg"
+                    alt=""
+                  />
+                  <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
+                    <div>Wabi Tiny Logo</div>
+                  </div>
+                </Link>                
               </div>
             </div>
           </section> 
