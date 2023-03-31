@@ -87,6 +87,7 @@ const Kidlit = () => {
                     height={500}
                     layout="responsive"
                     src="/IMG_0134.jpg"
+                    alt=""
                   />
               </div>
               <div>

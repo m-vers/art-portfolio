@@ -87,6 +87,7 @@ const Logos = () => {
                     height={500}
                     layout="responsive"
                     src="/GlobalCommsSummit1.jpg"
+                    alt=""
                   />
               </div>
               <div>
@@ -96,6 +97,7 @@ const Logos = () => {
                   height={500}
                   layout="responsive"
                   src="/GlobalCommsSummit2.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -105,6 +107,7 @@ const Logos = () => {
                   height={500}
                   layout="responsive"
                   src="/GlobalCommsSummit3.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -114,6 +117,7 @@ const Logos = () => {
                   height={500}
                   layout="responsive"
                   src="/Security&CollabEdit2.jpg"
+                  alt=""
                 />
               </div>
             </div>
