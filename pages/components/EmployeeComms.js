@@ -106,7 +106,7 @@ const EmployeeComms = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0625.jpg"
+                  src="/IMG_0625.JPG"
                   alt=""
                 />
               </div>
@@ -116,7 +116,7 @@ const EmployeeComms = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0626.jpg"
+                  src="/IMG_0626.JPG"
                   alt=""
                 />
               </div>

@@ -114,7 +114,7 @@ const Illustration = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0178.jpg"
+                    src="/IMG_0178.JPG"
                     alt=""
                   />
                   <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
@@ -129,7 +129,7 @@ const Illustration = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0219.jpg"
+                    src="/IMG_0219.JPG"
                     alt=""
                   />
                   <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
@@ -144,7 +144,7 @@ const Illustration = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0551.jpg"
+                    src="/IMG_0551.JPG"
                     alt=""
                   />
                   <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
@@ -159,7 +159,7 @@ const Illustration = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0401.jpg"
+                    src="/IMG_0401.JPG"
                     alt=""
                   />
                   <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">

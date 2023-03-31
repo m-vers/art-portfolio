@@ -86,7 +86,7 @@ const Kidlit = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0134.jpg"
+                    src="/IMG_0134.JPG"
                     alt=""
                   />
               </div>
@@ -96,7 +96,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0138.jpg"
+                  src="/IMG_0138.JPG"
                   alt=""
                 />
               </div>
@@ -106,7 +106,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0139.jpg"
+                  src="/IMG_0139.JPG"
                   alt=""
                 />
               </div>
@@ -116,7 +116,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0216.jpg"
+                  src="/IMG_0216.JPG"
                   alt=""
                 />
               </div>
@@ -126,7 +126,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0219.jpg"
+                  src="/IMG_0219.JPG"
                   alt=""
                 />
               </div>
@@ -136,7 +136,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0251.jpg"
+                  src="/IMG_0251.JPG"
                   alt=""
                 />
               </div>
@@ -146,7 +146,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0252.jpg"
+                  src="/IMG_0252.JPG"
                   alt=""
                 />
               </div>
@@ -156,7 +156,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0253.jpg"
+                  src="/IMG_0253.JPG"
                   alt=""
                 />
               </div>
@@ -166,7 +166,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0254.jpg"
+                  src="/IMG_0254.JPG"
                   alt=""
                 />
               </div>
@@ -176,7 +176,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0255.jpg"
+                  src="/IMG_0255.JPG"
                   alt=""
                 />
               </div>
@@ -186,7 +186,7 @@ const Kidlit = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0256.jpg"
+                  src="/IMG_0256.JPG"
                   alt=""
                 />
               </div>

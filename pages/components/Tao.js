@@ -86,7 +86,7 @@ const Tao = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0401.jpg"
+                    src="/IMG_0401.JPG"
                     alt=""
                   />
               </div>
@@ -96,7 +96,7 @@ const Tao = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0402.jpg"
+                  src="/IMG_0402.JPG"
                   alt=""
                 />
               </div>
@@ -106,7 +106,7 @@ const Tao = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0404.jpg"
+                  src="/IMG_0404.JPG"
                   alt=""
                 />
               </div>

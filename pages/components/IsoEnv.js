@@ -86,7 +86,7 @@ const IsoEnv = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/IMG_0178.jpg"
+                    src="/IMG_0178.JPG"
                     alt=""
                   />
               </div>
@@ -96,7 +96,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0179.jpg"
+                  src="/IMG_0179.JPG"
                   alt=""
                 />
               </div>
@@ -106,7 +106,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0180.jpg"
+                  src="/IMG_0180.JPG"
                   alt=""
                 />
               </div>
@@ -116,7 +116,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0181.jpg"
+                  src="/IMG_0181.JPG"
                   alt=""
                 />
               </div>
@@ -126,7 +126,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0189.jpg"
+                  src="/IMG_0189.JPG"
                   alt=""
                 />
               </div>
@@ -136,7 +136,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0190.jpg"
+                  src="/IMG_0190.JPG"
                   alt=""
                 />
               </div>
@@ -146,7 +146,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0192.jpg"
+                  src="/IMG_0192.JPG"
                   alt=""
                 />
               </div>
@@ -156,7 +156,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0194.jpg"
+                  src="/IMG_0194.JPG"
                   alt=""
                 />
               </div>
@@ -166,7 +166,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0195.jpg"
+                  src="/IMG_0195.JPG"
                   alt=""
                 />
               </div>
@@ -176,7 +176,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0196.jpg"
+                  src="/IMG_0196.JPG"
                   alt=""
                 />
               </div>
@@ -186,7 +186,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0197.jpg"
+                  src="/IMG_0197.JPG"
                   alt=""
                 />
               </div>
@@ -196,7 +196,7 @@ const IsoEnv = () => {
                   width={500}
                   height={500}
                   layout="responsive"
-                  src="/IMG_0198.jpg"
+                  src="/IMG_0198.JPG"
                   alt=""
                 />
               </div>
