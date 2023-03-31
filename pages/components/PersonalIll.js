@@ -87,6 +87,7 @@ const PersonalIll = () => {
                     height={500}
                     layout="responsive"
                     src="/106B3313-4621-4E30-B388-CC73FE621783.jpg"
+                    alt=""
                   />
               </div>
               <div>
@@ -96,6 +97,7 @@ const PersonalIll = () => {
                   height={500}
                   layout="responsive"
                   src="/F3BF4444-9E51-4E56-A417-7BE2924898DB.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -105,6 +107,7 @@ const PersonalIll = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0550.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -114,6 +117,7 @@ const PersonalIll = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0551.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -123,6 +127,7 @@ const PersonalIll = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0581.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -132,6 +137,7 @@ const PersonalIll = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0583.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -141,6 +147,7 @@ const PersonalIll = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0821.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -150,6 +157,7 @@ const PersonalIll = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0833.jpg"
+                  alt=""
                 />
               </div>
             </div>

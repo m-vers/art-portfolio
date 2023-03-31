@@ -87,6 +87,7 @@ const Spacecraft = () => {
                     height={500}
                     layout="responsive"
                     src="/Apollo11Anniversary.jpg"
+                    alt=""
                   />
               </div>
               <div>
@@ -96,6 +97,7 @@ const Spacecraft = () => {
                   height={500}
                   layout="responsive"
                   src="/DiscoveryAnatomy.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -105,6 +107,7 @@ const Spacecraft = () => {
                   height={500}
                   layout="responsive"
                   src="/HubbleAnatomy.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -114,6 +117,7 @@ const Spacecraft = () => {
                   height={500}
                   layout="responsive"
                   src="/TheGrandTour.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -123,6 +127,7 @@ const Spacecraft = () => {
                   height={500}
                   layout="responsive"
                   src="/VoyagerPoster.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -132,6 +137,7 @@ const Spacecraft = () => {
                   height={500}
                   layout="responsive"
                   src="/CosmicArtClub1.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -141,6 +147,7 @@ const Spacecraft = () => {
                   height={500}
                   layout="responsive"
                   src="/CosmicArtClub2.jpg"
+                  alt=""
                 />
               </div>
             </div>

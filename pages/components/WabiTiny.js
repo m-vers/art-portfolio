@@ -87,6 +87,7 @@ const WabiTiny = () => {
                     height={500}
                     layout="responsive"
                     src="/WabiTinyLogo.jpg"
+                    alt=""
                   />
               </div>
             </div>

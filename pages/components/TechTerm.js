@@ -87,6 +87,7 @@ const TechTerm = () => {
                     height={500}
                     layout="responsive"
                     src="/TechTermsBannerFinal.jpg"
+                    alt=""
                   />
               </div>
               <div>
@@ -96,6 +97,7 @@ const TechTerm = () => {
                   height={500}
                   layout="responsive"
                   src="/3.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -105,6 +107,7 @@ const TechTerm = () => {
                   height={500}
                   layout="responsive"
                   src="/4.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -114,6 +117,7 @@ const TechTerm = () => {
                   height={500}
                   layout="responsive"
                   src="/5.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -123,6 +127,7 @@ const TechTerm = () => {
                   height={500}
                   layout="responsive"
                   src="/6.jpg"
+                  alt=""
                 />
               </div>
             </div>

@@ -87,6 +87,7 @@ const HowIWork = () => {
                     height={500}
                     layout="responsive"
                     src="/AnkeChessboardFinalEdit.jpg"
+                    alt=""
                   />
               </div>
             </div>

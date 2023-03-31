@@ -85,6 +85,7 @@ const Animation = () => {
                   height={500}
                   layout="responsive"
                   src="/The(Re)Animator.crop.jpg"
+                  alt=""
                   />
                   <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
                     <div>The ReAnimator</div>
@@ -93,7 +94,7 @@ const Animation = () => {
               </div>
               <div className="basis-1/3 flex-1">
                 <Image
-                />
+                alt=""/>
               </div>
             </div>
           </section> 

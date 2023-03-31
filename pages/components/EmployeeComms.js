@@ -87,6 +87,7 @@ const EmployeeComms = () => {
                     height={500}
                     layout="responsive"
                     src="/IMG_0601.jpg"
+                    alt=""
                   />
               </div>
               <div>
@@ -96,6 +97,7 @@ const EmployeeComms = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0624.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -105,6 +107,7 @@ const EmployeeComms = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0625.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -114,6 +117,7 @@ const EmployeeComms = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0626.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -123,6 +127,7 @@ const EmployeeComms = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0627.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -132,6 +137,7 @@ const EmployeeComms = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0629.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -141,6 +147,7 @@ const EmployeeComms = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0634.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -150,6 +157,7 @@ const EmployeeComms = () => {
                   height={500}
                   layout="responsive"
                   src="/Access_Points.jpg"
+                  alt=""
                 />
               </div>
             </div>

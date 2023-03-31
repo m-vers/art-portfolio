@@ -87,6 +87,7 @@ const BaldwinGym = () => {
                     height={500}
                     layout="responsive"
                     src="/BaldwinGym.jpg"
+                    alt=""
                   />
               </div>
               <div>
@@ -96,6 +97,7 @@ const BaldwinGym = () => {
                   height={500}
                   layout="responsive"
                   src="/BaldwinGym1.jpg"
+                  alt=""
                 />
               </div>
             </div>

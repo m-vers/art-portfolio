@@ -87,6 +87,7 @@ const IsoEnv = () => {
                     height={500}
                     layout="responsive"
                     src="/IMG_0178.jpg"
+                    alt=""
                   />
               </div>
               <div>
@@ -96,6 +97,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0179.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -105,6 +107,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0180.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -114,6 +117,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0181.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -123,6 +127,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0189.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -132,6 +137,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0190.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -141,6 +147,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0192.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -150,6 +157,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0194.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -159,6 +167,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0195.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -168,6 +177,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0196.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -177,6 +187,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0197.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -186,6 +197,7 @@ const IsoEnv = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0198.jpg"
+                  alt=""
                 />
               </div>
             </div>

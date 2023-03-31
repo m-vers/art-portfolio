@@ -96,6 +96,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0138.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -105,6 +106,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0139.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -114,6 +116,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0216.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -123,6 +126,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0219.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -132,6 +136,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0251.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -141,6 +146,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0252.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -150,6 +156,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0253.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -159,6 +166,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0254.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -168,6 +176,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0255.jpg"
+                  alt=""
                 />
               </div>
               <div>
@@ -177,6 +186,7 @@ const Kidlit = () => {
                   height={500}
                   layout="responsive"
                   src="/IMG_0256.jpg"
+                  alt=""
                 />
               </div>
             </div>

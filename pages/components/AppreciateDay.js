@@ -87,6 +87,7 @@ const AppreciateDay = () => {
                     height={500}
                     layout="responsive"
                     src="/EmployeeAppreciation5.jpg"
+                    alt=""
                   />
               </div>
             </div>
