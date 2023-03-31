@@ -144,9 +144,9 @@ export default function Home() {
             </h3>
             <p className="text-left py-5 leading-8 text-gray-900 dark:text-blue-100 max-w-xl mx-auto md:text-xl font-sarabun">
             Hello! My name is Sara Baldwin and I am a graphic designer and illustrator living in the PNW. I graduated from Missouri State University and I am fluent in an array of digital media, traditional art, visual communication, design, and illustration.
-            I&#39m always ready to expand my artistic scope and learn something new!
+            I'm always ready to expand my artistic scope and learn something new!
             <br /><br />
-            When I&#39m not creating, I love being outside! Most of my inspiration is fueled by outdoor adventures with my friends and my dog.
+            When I'm not creating, I love being outside! Most of my inspiration is fueled by outdoor adventures with my friends and my dog.
             </p>
             <div className="text-5xl flex flex-wrap justify-center gap-16 py-3 text-blue-600 dark:text-blue-400">
               <Link href="https://www.linkedin.com/in/lemonwatercolor/" target="_blank">
