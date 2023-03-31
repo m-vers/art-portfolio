@@ -114,7 +114,7 @@ const Design = () => {
                     width={500}
                     height={500}
                     layout="responsive"
-                    src="/GlobalCommsSummit1.jpg"
+                    src="/GlobalCommsSummit1.JPG"
                     alt=""
                   />
                   <div className="cursor-pointer absolute bottom-0 left-0 bg-blue-900 w-full h-1/3 text-white bg-opacity-60 flex items-center justify-center font-sarabun text-3xl hover:h-full transition-[height]">
