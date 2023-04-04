@@ -10,6 +10,7 @@ module.exports = {
       screens: {
         'small': { 'raw': '(max-width: 800px)' },
         // => @media (max-width: 800px) { ... }
+        'xsmall': { 'raw': '(max-width: 450px)' },
       },
       fontFamily: {
         roboto: "roboto",

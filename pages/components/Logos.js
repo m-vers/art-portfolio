@@ -16,14 +16,14 @@ const Logos = () => {
       </Head>
 
 {/* Main Section */}
-      <main className="bg-blue-100 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="bg-blue-100 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
 
 {/* Header Navigation */}
           <nav className="py-10 mb-12 justify-between flex dark:text-blue-100">
             <Link href="/"
             onClick={() => window.scrollTo(0,0)}>
-              <h1 className="font-roboto font-black text-xl text-blue-600 dark:text-blue-400">Sara Baldwin</h1>
+              <h1 className="font-roboto font-black text-xl text-blue-600 dark:text-blue-400 pl-4">Sara Baldwin</h1>
             </Link>
             <ul className="flex items-center">
               <li>
@@ -74,12 +74,12 @@ const Logos = () => {
           <section className="py-10 max-w-screen-lg m-auto">
             <div>
               <h3 className="text-5xl py-2 bg-gradient-to-r from-blue-600
-                  to-purple-500 bg-clip-text text-transparent font-roboto font-black dark:text-blue-400 md:text-6xl max-w-xl">Logo Designs</h3>
-              <p className="py-2 leading-8 text-gray-900 dark:text-blue-100 font-sarabun md:text-xl">
+                  to-purple-500 bg-clip-text text-transparent font-roboto font-black dark:text-blue-400 md:text-6xl max-w-xl pl-4">Logo Designs</h3>
+              <p className="py-2 leading-8 text-gray-900 dark:text-blue-100 font-sarabun md:text-xl pl-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
-            <div className="flex flex-col gap-10 py-10">
+            <div className="flex flex-col gap-10 py-10 max-w-3xl m-auto small:p-5">
               <div >
                   <Image
                     className="rounded-lg object-cover cursor-pointer"

@@ -79,14 +79,14 @@ export default function Home() {
       </Head>
 
 {/* Main Section */}
-      <main className="bg-blue-100 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="bg-blue-100 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
 
 {/* Header Navigation */}
           <nav className="py-10 mb-12 justify-between flex dark:text-blue-100">
             <Link href="/"
             onClick={() => window.scrollTo(0,0)}>
-              <h1 className="font-roboto font-black text-xl text-blue-600 dark:text-blue-400">Sara Baldwin</h1>
+              <h1 className="font-roboto font-black text-xl text-blue-600 dark:text-blue-400 pl-4">Sara Baldwin</h1>
             </Link>
             <ul className="flex items-center">
               <li>
@@ -134,21 +134,21 @@ export default function Home() {
           </nav>
 
 {/* Site Banner */}
-          <div className="text-center p-10">
+          <div className="text-center">
             <h2 className="text-5xl py-2 bg-gradient-to-r from-blue-600
-                  to-purple-500 bg-clip-text text-transparent dark:text-blue-400 md:text-6xl max-w-lg m-auto font-roboto font-black">
+                  to-purple-500 bg-clip-text text-transparent dark:text-blue-400 md:text-6xl max-w-lg m-auto font-roboto font-black p-10">
               Sara Baldwin
             </h2>
-            <h3 className="text-2xl py-2 text-gray-900 dark:text-blue-100 md:text-3xl font-sarabun">
+            <h3 className="text-2xl py-2 text-gray-900 dark:text-blue-100 md:text-3xl font-sarabun p-10">
               Illustrator & Designer
             </h3>
-            <p className="text-left py-5 leading-8 text-gray-900 dark:text-blue-100 max-w-xl mx-auto md:text-xl font-sarabun">
+            <p className="text-left py-5 leading-8 text-gray-900 dark:text-blue-100 max-w-xl mx-auto md:text-xl font-sarabun p-10">
             Hello! My name is Sara Baldwin and I am a graphic designer and illustrator living in the PNW. I graduated from Missouri State University and I am fluent in an array of digital media, traditional art, visual communication, design, and illustration.
             I'm always ready to expand my artistic scope and learn something new!
             <br /><br />
             When I'm not creating, I love being outside! Most of my inspiration is fueled by outdoor adventures with my friends and my dog.
             </p>
-            <div className="text-5xl flex flex-wrap justify-center gap-16 py-3 text-blue-600 dark:text-blue-400">
+            <div className="text-5xl flex flex-wrap justify-center gap-16 py-3 text-blue-600 dark:text-blue-400 p-10">
               <Link href="https://www.linkedin.com/in/lemonwatercolor/" target="_blank">
                 <AiFillLinkedin />
               </Link>
@@ -165,8 +165,7 @@ export default function Home() {
                 <FaTumblrSquare />
               </Link>
             </div>
-            <div className="mx-auto bg-gradient-to-b
-             from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src="/profile-pic.jpg" layout="fill" objectFit="cover" alt=""/>
             </div>
           </div>

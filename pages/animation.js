@@ -16,14 +16,14 @@ const Animation = () => {
       </Head>
 
 {/* Main Section */}
-      <main className="bg-blue-100 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="bg-blue-100 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
 
 {/* Header Navigation */}
           <nav className="py-10 mb-12 justify-between flex dark:text-blue-100">
             <Link href="/"
             onClick={() => window.scrollTo(0,0)}>
-              <h1 className="font-roboto font-black text-xl text-blue-600 dark:text-blue-400">Sara Baldwin</h1>
+              <h1 className="font-roboto font-black text-xl text-blue-600 dark:text-blue-400 pl-4">Sara Baldwin</h1>
             </Link>
             <ul className="flex items-center">
               <li>
@@ -74,9 +74,9 @@ const Animation = () => {
           <section className="py-10 max-w-screen-lg m-auto">
             <div>
               <h3 className="text-5xl py-2 bg-gradient-to-r from-blue-600
-                  to-purple-500 bg-clip-text text-transparent font-roboto font-black dark:text-blue-400 md:text-6xl max-w-xs">Animation</h3>
+                  to-purple-500 bg-clip-text text-transparent font-roboto font-black dark:text-blue-400 md:text-6xl max-w-xs small:pl-4">Animation</h3>
             </div>
-            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap small:m-10">
               <div className="basis-1/3 flex-1 relative">
                 <Link href="./components/TheReAnimator">
                   <Image
